@@ -30,12 +30,17 @@ This project is ideal for recruiters and hiring managers because it shows:
 
 ## How it works
 
-1. Load sales and customer data.
-2. Calculate business metrics like revenue, units sold, and growth.
-3. Display charts and tables in a clean dashboard.
+1. Load a sales dataset from the included demo CSV.
+2. Calculate metrics such as total revenue, units sold, average order value, and best region.
+3. Display interactive charts for region revenue, product revenue, and sales trend.
 4. Accept a natural language question from the user.
-5. Send the question and summary stats to an LLM.
-6. Show the generated answer and recommended actions.
+5. Send the question, summary statistics, and sales insights to an LLM.
+6. Display the AI-generated recommendation and next steps.
+
+## Demo dataset
+
+This repo includes a sample dataset at `data/sales_sample.csv`.
+It is ready to use for the app and contains sales orders across regions, products, and customer segments.
 
 ## How to run
 
@@ -53,6 +58,8 @@ export OPENAI_API_KEY="your_api_key"
 ```bash
 streamlit run app.py
 ```
+
+4. Optionally upload your own CSV file in the app sidebar.
 
 ## Example use cases
 
