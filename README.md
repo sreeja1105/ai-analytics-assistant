@@ -1,49 +1,44 @@
-<<<<<<< HEAD
 # AI Analytics Assistant
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-Ready-orange?logo=streamlit)](https://streamlit.io/) [![OpenAI](https://img.shields.io/badge/OpenAI-GPT-blue?logo=openai)](https://openai.com/) [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/) [![Status](https://img.shields.io/badge/status-in_development-yellow)](https://github.com/sreeja1105/ai-analytics-assistant)
 
-A modern analytics project that combines AI and data insights for business decision-making.
+AI Analytics Assistant is a practical data product that combines AI-powered insights with interactive analytics.
 
-This repository demonstrates a practical AI-assisted analytics assistant with a user-facing interface, real business data patterns, and natural language insight generation.
+This Streamlit application loads a sample sales dataset, calculates business KPIs, visualizes revenue trends, and answers natural language questions using an LLM.
 
-## Why this project
+## Overview
 
-This project is ideal for recruiters and hiring managers because it shows:
-- AI / LLM integration
-- data analysis and visualization
-- business storytelling
-- practical product experience
+- Load structured sales data and calculate revenue, volume, and product metrics.
+- Display clear charts for region performance, product revenue, and sales trend.
+- Answer business questions in plain language using OpenAI.
+- Support CSV upload so users can analyze their own dataset.
 
 ## Features
 
-- Load a sample sales dataset
-- Show key business metrics
-- Create charts and trend summaries
-- Ask questions in natural language
-- Generate insights using a large language model
+- Interactive dashboard with business metrics and charts
+- Natural language question-answering over sales data
+- Demo dataset included for quick evaluation
+- CSV upload support for custom files
+- Clean, modern Streamlit UI
 
 ## Tech stack
 
 - Python
 - Streamlit
 - pandas
-- OpenAI (or another LLM provider)
-- Plotly / Matplotlib
+- Plotly
+- OpenAI API
 
-## How it works
+## Project files
 
-1. Load a sales dataset from the included demo CSV.
-2. Calculate metrics such as total revenue, units sold, average order value, and best region.
-3. Display interactive charts for region revenue, product revenue, and sales trend.
-4. Accept a natural language question from the user.
-5. Send the question, summary statistics, and sales insights to an LLM.
-6. Display the AI-generated recommendation and next steps.
+- `app.py` - main Streamlit application
+- `data/sales_sample.csv` - sample sales dataset
+- `requirements.txt` - Python dependencies
+- `.gitignore` - exclude temp files and environment files
 
 ## Demo dataset
 
-This repo includes a sample dataset at `data/sales_sample.csv`.
-It is ready to use for the app and contains sales orders across regions, products, and customer segments.
+The included sample dataset is stored in `data/sales_sample.csv` and contains sales orders across regions, products, and customer segments. It is ready to use for a fast project demonstration.
 
 ## How to run
 
@@ -53,8 +48,8 @@ pip install -r requirements.txt
 ```
 
 2. Set your OpenAI API key:
-```bash
-export OPENAI_API_KEY="your_api_key"
+```powershell
+setx OPENAI_API_KEY "your_api_key"
 ```
 
 3. Run the app:
@@ -64,28 +59,27 @@ streamlit run app.py
 
 4. Optionally upload your own CSV file in the app sidebar.
 
-## Demo and deployment
-
-This project is ready for deployment on Streamlit Cloud or any Python hosting platform. After deployment, add a live demo link here to make the project more visible to hiring managers.
-
 ## Example use cases
 
 - Ask: "What were the top selling products last quarter?"
 - Ask: "Which region had the highest revenue growth?"
 - Ask: "What action should the sales team take next month?"
 
-## Project value
+## Why this project is valuable
 
-This project is a strong addition to a portfolio because it blends modern AI with business analytics, making it relevant to roles such as:
-- Data Analyst
-- Business Intelligence Analyst
-- AI/ML Analyst
-- Analytics Engineer
-- Product Analytics
+This project demonstrates AI and analytics skills that employers seek in modern data roles:
+- AI / LLM integration for business insights
+- data visualization and dashboarding
+- practical product design and storytelling
+- hands-on Python and Streamlit development
+
+## Demo and deployment
+
+This repository is ready for deployment on Streamlit Cloud or any Python hosting platform. Deploying a live demo will make the project easier for hiring managers to review.
 
 ## Next improvements
 
-- Add real dataset uploads
-- Build a DAX / Power BI recommendation engine
-- Enable multi-modal insights with charts and tables
-- Add a deployment demo with Streamlit Cloud or GitHub Pages
+- Add more advanced data cleaning and feature engineering
+- Deploy a live demo with Streamlit Cloud
+- Extend the AI prompt to include trend insights and forecasts
+- Add unit tests and deployment automation
