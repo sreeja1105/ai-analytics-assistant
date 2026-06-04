@@ -1,5 +1,7 @@
 # AI Analytics Assistant
 
+[![Streamlit](https://img.shields.io/badge/Streamlit-Ready-orange?logo=streamlit)](https://streamlit.io/) [![OpenAI](https://img.shields.io/badge/OpenAI-GPT-blue?logo=openai)](https://openai.com/) [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/) [![Status](https://img.shields.io/badge/status-in_development-yellow)](https://github.com/sreeja1105/ai-analytics-assistant)
+
 A modern analytics project that combines AI and data insights for business decision-making.
 
 This repository demonstrates a practical AI-assisted analytics assistant with a user-facing interface, real business data patterns, and natural language insight generation.
@@ -60,6 +62,10 @@ streamlit run app.py
 ```
 
 4. Optionally upload your own CSV file in the app sidebar.
+
+## Demo and deployment
+
+This project is ready for deployment on Streamlit Cloud or any Python hosting platform. After deployment, add a live demo link here to make the project more visible to hiring managers.
 
 ## Example use cases
 
