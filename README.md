@@ -2,6 +2,8 @@
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-Ready-orange?logo=streamlit)](https://streamlit.io/) [![OpenAI](https://img.shields.io/badge/OpenAI-GPT-blue?logo=openai)](https://openai.com/) [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/) [![Status](https://img.shields.io/badge/status-in_development-yellow)](https://github.com/sreeja1105/ai-analytics-assistant)
 
+**Live demo:** _Deployment ready — add your Streamlit Cloud link here once live_
+
 AI Analytics Assistant is a practical data product that combines AI-powered insights with interactive analytics.
 
 This Streamlit application loads a sample sales dataset, calculates business KPIs, visualizes revenue trends, and answers natural language questions using an LLM.
@@ -76,6 +78,12 @@ This project demonstrates AI and analytics skills that employers seek in modern 
 ## Demo and deployment
 
 This repository is ready for deployment on Streamlit Cloud or any Python hosting platform. Deploying a live demo will make the project easier for hiring managers to review.
+
+**Deploy now:** Use `streamlit run app.py` locally, then publish with Streamlit Cloud or another host.
+
+**Add your live link here when available:**
+
+- Live demo: _coming soon_
 
 ## Next improvements
 
